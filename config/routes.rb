@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :portfolios, except: [:show]
   # This is for the custom scope that we added for only angular items
   get 'angular-items', to: 'portfolios#angular'
