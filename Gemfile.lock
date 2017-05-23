@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/jsev007/jsev_c_tool
+  revision: d3f0c96dcf299c4d42cd89119d364c31d13dc815
+  specs:
+    jsev_c_tool (0.1.0)
+
+GIT
   remote: https://github.com/plataformatec/devise.git
   revision: 079ed3b6f8b671acde2dd630d28d21adb010fb3a
   specs:
@@ -197,6 +203,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
+  jsev_c_tool!
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
   pry-byebug

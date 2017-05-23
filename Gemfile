@@ -57,3 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', github: 'plataformatec/devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'jsev_c_tool', git: 'https://github.com/jsev007/jsev_c_tool'

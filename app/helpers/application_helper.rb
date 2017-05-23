@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    JsevCTool::Renderer.copyright 'Jorge Sevilla', 'All Rights Reserved'
+  end
+
 end
